@@ -19,5 +19,8 @@ export default function Sensor(url, callback) {
       xhr.abort();
     }
   };
+  xhr.onerror = function() {
+    callback(false);
+  };
   xhr.send();
 }
