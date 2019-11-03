@@ -1,6 +1,6 @@
 {
   "name": "remote-sensor",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Check if remove resource valid without full download",
   "main": "index.js",
   "browser": "dist/remote-sensor.min.js",
