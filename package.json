@@ -1,0 +1,40 @@
+{
+  "name": "remote-sensor",
+  "version": "0.0.3",
+  "description": "Check if remove resource valid without full download",
+  "main": "index.js",
+  "browser": "dist/remote-sensor.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZiQiangWang/remote-sensor.git"
+  },
+  "keywords": [
+    "remote",
+    "sensor",
+    "fast",
+    "download",
+    "check",
+    "valid"
+  ],
+  "author": "ZiQiangWang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZiQiangWang/remote-sensor/issues"
+  },
+  "homepage": "https://github.com/ZiQiangWang/remote-sensor#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "rollup": "^1.26.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.3"
+  }
+}
